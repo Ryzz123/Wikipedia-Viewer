@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
+html,body{
+   background: url("img/background.svg") no-repeat center center fixed,linear-gradient(50deg, #7383FF, #C384FB);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+body{
+
+  /*background-size:cover;
+  background-position:center;*/
+  color: #495057;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.search{
+    margin: 100px auto auto auto;
+    padding: 3%;
+}
+.title{
+    margin: auto;
+    padding-top: 10%;
+    color: #ffffff;
+    font-family: 'Lobster Two', cursive;
+    font-size: 4.5rem;
+}
+.card{
+    min-width: 100%;
+}
+#display-result a{
+    color: #7383FF;
+}
+#display-result{
+    margin: auto;
+    padding: 3%;
+    color: gray;
+}
+a{
+    margin: auto;
+    color: #cecece;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+footer{
+  margin-top: auto;
+  padding: 1%;
+}
